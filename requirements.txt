@@ -1,2 +1,1 @@
-# these are the versions on the docker build jupyter/scipy-notebook
 torch >= 1.13.1
