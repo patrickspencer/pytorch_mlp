@@ -5,7 +5,7 @@ from torch import nn
 
 
 class MLP(nn.Module):
-    def __init__(self, D_in, H, D_out):
+    def __init__(self, D_in=1000, H=100, D_out=10):
         """
         3 layer neural network with dropout and final sigmoid activation
         """
